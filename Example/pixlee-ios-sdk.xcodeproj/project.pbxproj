@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367F09B44A6A915329D27FBF /* libPods-pixlee-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6053723B4237A0F767D860 /* libPods-pixlee-ios-sdk.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* PXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PXLAppDelegate.m */; };
 		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
+		6003F5A7195388D20070C39A /* PXLExampleAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PXLExampleAlbumViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		76777E261E6DED8B00C00B9F /* PXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PXLAppDelegate.m */; };
-		76777E271E6DED9200C00B9F /* PXLExampleAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PXLExampleAlbumViewController.m */; };
-		F31F4EC1B33C44D6A5E4BF86 /* libPods-pixlee-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161B851255FCEB1AD3DB521 /* libPods-pixlee-ios-sdk.a */; };
-		FDCEC5B790468B080C70DC11 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEDDB631D61A3D27AEC4951 /* libPods-Tests.a */; };
+		76D784A01E6DF3D200E45194 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D7849E1E6DF3D200E45194 /* Default-568h.png */; };
+		76D784A11E6DF3D200E45194 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D7849F1E6DF3D200E45194 /* Default-568h@2x.png */; };
+		76FD07341E6DF8E900FE9F4F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FD07331E6DF8E900FE9F4F /* Main_iPad.storyboard */; };
+		EAB6C3757D8CA84427598396 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2013489F5F68B66A9010C4EC /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EEDDB631D61A3D27AEC4951 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2161B851255FCEB1AD3DB521 /* libPods-pixlee-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pixlee-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C2362A851E40F6B3ED00256 /* Pods-pixlee-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixlee-ios-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		2013489F5F68B66A9010C4EC /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCA7C7E90B671DC93814E5F /* Pods-pixlee-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixlee-ios-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
 		3D42D05E9CF56B6AF5E7889D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3FA41FEB0F8961ADB2607E90 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45AEEBF9D775409A654175E3 /* pixlee-ios-sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "pixlee-ios-sdk.podspec"; path = "../pixlee-ios-sdk.podspec"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* pixlee-ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixlee-ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +63,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		B3048D35B486FAE4B8509C03 /* Pods-pixlee-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixlee-ios-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
-		E7078349390A11E367A81BAC /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		67347BCBEFC18DB9F3E1034D /* Pods-pixlee-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixlee-ios-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		76D7849E1E6DF3D200E45194 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+		76D7849F1E6DF3D200E45194 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		76FD07331E6DF8E900FE9F4F /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		868870B69D22562559C6680C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A0E82A05BFE231E2073D0EDC /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6053723B4237A0F767D860 /* libPods-pixlee-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pixlee-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF475F72534B13280281929 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F31F4EC1B33C44D6A5E4BF86 /* libPods-pixlee-ios-sdk.a in Frameworks */,
+				367F09B44A6A915329D27FBF /* libPods-pixlee-ios-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +92,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FDCEC5B790468B080C70DC11 /* libPods-Tests.a in Frameworks */,
+				EAB6C3757D8CA84427598396 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5835EA6698D49C16A1F5314E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0E82A05BFE231E2073D0EDC /* Pods-Tests.debug.xcconfig */,
+				868870B69D22562559C6680C /* Pods-Tests.release.xcconfig */,
+				67347BCBEFC18DB9F3E1034D /* Pods-pixlee-ios-sdk.debug.xcconfig */,
+				2BCA7C7E90B671DC93814E5F /* Pods-pixlee-ios-sdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +118,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				C2B89BA952533A7B9D54FFA3 /* Pods */,
+				5835EA6698D49C16A1F5314E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +138,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1EEDDB631D61A3D27AEC4951 /* libPods-Tests.a */,
-				2161B851255FCEB1AD3DB521 /* libPods-pixlee-ios-sdk.a */,
+				2013489F5F68B66A9010C4EC /* libPods-Tests.a */,
+				CA6053723B4237A0F767D860 /* libPods-pixlee-ios-sdk.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,9 +151,12 @@
 				6003F59D195388D20070C39A /* PXLAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
 				6003F5A5195388D20070C39A /* PXLExampleAlbumViewController.h */,
+				76D7849E1E6DF3D200E45194 /* Default-568h.png */,
+				76D7849F1E6DF3D200E45194 /* Default-568h@2x.png */,
 				6003F5A6195388D20070C39A /* PXLExampleAlbumViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				76FD07331E6DF8E900FE9F4F /* Main_iPad.storyboard */,
 			);
 			path = "pixlee-ios-sdk";
 			sourceTree = "<group>";
@@ -181,17 +201,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C2B89BA952533A7B9D54FFA3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E7078349390A11E367A81BAC /* Pods-Tests.debug.xcconfig */,
-				3FA41FEB0F8961ADB2607E90 /* Pods-Tests.release.xcconfig */,
-				2C2362A851E40F6B3ED00256 /* Pods-pixlee-ios-sdk.debug.xcconfig */,
-				B3048D35B486FAE4B8509C03 /* Pods-pixlee-ios-sdk.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,12 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "pixlee-ios-sdk" */;
 			buildPhases = (
-				3977CE74B996B061E60230B9 /* [CP] Check Pods Manifest.lock */,
+				18153F408DBE242C75822315 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B5A485BBAE48F6D436A39508 /* [CP] Embed Pods Frameworks */,
-				42C3603C88CDA38011D6FACD /* [CP] Copy Pods Resources */,
+				F5F2E649C08BC41EF9D20883 /* [CP] Embed Pods Frameworks */,
+				EF15E934BD720CF4134D6962 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				4BCA5FA702125F50533A8A0C /* [CP] Check Pods Manifest.lock */,
+				E83D739E033F8755ED4BA1A4 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				56DDB70045F940B05E01CB7A /* [CP] Embed Pods Frameworks */,
-				030FB8F55111F765318B09C2 /* [CP] Copy Pods Resources */,
+				2B780C28223AD0E613B2AAE9 /* [CP] Embed Pods Frameworks */,
+				4F6A55CC8B01E7C5EE4CB726 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,11 +256,9 @@
 				ORGANIZATIONNAME = "Tim Shi";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 4BQJJA7963;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = Q28M29YQL8;
 					};
 					6003F5AD195388D20070C39A = {
-						DevelopmentTeam = 4BQJJA7963;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -280,8 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D784A01E6DF3D200E45194 /* Default-568h.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				76FD07341E6DF8E900FE9F4F /* Main_iPad.storyboard in Resources */,
+				76D784A11E6DF3D200E45194 /* Default-568h@2x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,22 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		030FB8F55111F765318B09C2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3977CE74B996B061E60230B9 /* [CP] Check Pods Manifest.lock */ = {
+		18153F408DBE242C75822315 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,37 +322,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		42C3603C88CDA38011D6FACD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4BCA5FA702125F50533A8A0C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		56DDB70045F940B05E01CB7A /* [CP] Embed Pods Frameworks */ = {
+		2B780C28223AD0E613B2AAE9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +337,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5A485BBAE48F6D436A39508 /* [CP] Embed Pods Frameworks */ = {
+		4F6A55CC8B01E7C5EE4CB726 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83D739E033F8755ED4BA1A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF15E934BD720CF4134D6962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixlee-ios-sdk/Pods-pixlee-ios-sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F2E649C08BC41EF9D20883 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,8 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76777E271E6DED9200C00B9F /* PXLExampleAlbumViewController.m in Sources */,
-				76777E261E6DED8B00C00B9F /* PXLAppDelegate.m in Sources */,
+				6003F59E195388D20070C39A /* PXLAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* PXLExampleAlbumViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,17 +530,20 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2362A851E40F6B3ED00256 /* Pods-pixlee-ios-sdk.debug.xcconfig */;
+			baseConfigurationReference = 67347BCBEFC18DB9F3E1034D /* Pods-pixlee-ios-sdk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4BQJJA7963;
+				DEVELOPMENT_TEAM = Q28M29YQL8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pixlee-ios-sdk/pixlee-ios-sdk-Prefix.pch";
 				INFOPLIST_FILE = "pixlee-ios-sdk/pixlee-ios-sdk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixlee.pixlee-ios-sdk-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -538,16 +551,18 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3048D35B486FAE4B8509C03 /* Pods-pixlee-ios-sdk.release.xcconfig */;
+			baseConfigurationReference = 2BCA7C7E90B671DC93814E5F /* Pods-pixlee-ios-sdk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4BQJJA7963;
+				DEVELOPMENT_TEAM = Q28M29YQL8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pixlee-ios-sdk/pixlee-ios-sdk-Prefix.pch";
 				INFOPLIST_FILE = "pixlee-ios-sdk/pixlee-ios-sdk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixlee.pixlee-ios-sdk-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -557,10 +572,9 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7078349390A11E367A81BAC /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = A0E82A05BFE231E2073D0EDC /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pixlee-ios-sdk.app/pixlee-ios-sdk";
-				DEVELOPMENT_TEAM = 4BQJJA7963;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -581,10 +595,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA41FEB0F8961ADB2607E90 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 868870B69D22562559C6680C /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pixlee-ios-sdk.app/pixlee-ios-sdk";
-				DEVELOPMENT_TEAM = 4BQJJA7963;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

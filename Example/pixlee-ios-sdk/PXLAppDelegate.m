@@ -14,7 +14,7 @@
 @implementation PXLAppDelegate
 
 #warning Replace with your Pixlee API key.
-static NSString * const PXLClientAPIKey = @"<YOUR PIXLEE CLIENT KEY HERE>";
+static NSString * const PXLClientAPIKey = @"zk4wWCOaHAo4Hi8HsE";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[PXLClient sharedClient] setApiKey:PXLClientAPIKey];
