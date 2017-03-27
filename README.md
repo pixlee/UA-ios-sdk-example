@@ -40,6 +40,7 @@ If a user taps on a photo in the `PXLAlbumViewController`, we present a detail v
 * any products associated with that photo (displayed as a horizontal list of products)
 
 ### Example
+First, ensure that cocoapods is installed via `gem install cocoapods`.
 
 To run the example project, clone the repo, and run `pod update` from the Example directory first.
 
