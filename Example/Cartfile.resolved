@@ -1,1 +1,5 @@
-github "pixlee/UA-ios-sdk-example" "0.01"
+github "AFNetworking/AFNetworking" "3.1.0"
+github "SnapKit/Masonry" "v0.6.4"
+github "mattt/FormatterKit" "1.8.2"
+github "pixlee/UA-ios-sdk-example" "0.02"
+github "rs/SDWebImage" "4.0.0"

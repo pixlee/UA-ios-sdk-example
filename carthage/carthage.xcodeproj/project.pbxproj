@@ -53,6 +53,7 @@
 		CD2721A11E8AFF5A00A7413A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2721A01E8AFF5A00A7413A /* UIKit.framework */; };
 		CD2721A31E8AFF6B00A7413A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2721A21E8AFF6B00A7413A /* CoreGraphics.framework */; };
 		CD2721A51E8AFF7300A7413A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2721A41E8AFF7300A7413A /* Foundation.framework */; };
+		CD2721A81E8B222900A7413A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2721A61E8B1C6600A7413A /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		CD2721A01E8AFF5A00A7413A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD2721A21E8AFF6B00A7413A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CD2721A41E8AFF7300A7413A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD2721A61E8B1C6600A7413A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +124,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD27219C1E8AFD6900A7413A /* WebImage.framework in Frameworks */,
 				CD2721A31E8AFF6B00A7413A /* CoreGraphics.framework in Frameworks */,
 				CD2721A11E8AFF5A00A7413A /* UIKit.framework in Frameworks */,
 				CD2721A51E8AFF7300A7413A /* Foundation.framework in Frameworks */,
-				CD27219C1E8AFD6900A7413A /* WebImage.framework in Frameworks */,
+				CD2721A81E8B222900A7413A /* SDWebImage.framework in Frameworks */,
 				CD27219D1E8AFD6900A7413A /* Masonry.framework in Frameworks */,
 				CD27219E1E8AFD6900A7413A /* FormatterKit.framework in Frameworks */,
 				CD27219F1E8AFD6900A7413A /* AFNetworking.framework in Frameworks */,
@@ -219,6 +222,7 @@
 		CD2721971E8AFD6900A7413A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD2721A61E8B1C6600A7413A /* SDWebImage.framework */,
 				CD2721A41E8AFF7300A7413A /* Foundation.framework */,
 				CD2721A21E8AFF6B00A7413A /* CoreGraphics.framework */,
 				CD2721A01E8AFF5A00A7413A /* UIKit.framework */,
