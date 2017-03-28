@@ -1,0 +1,268 @@
+BCSymbolMap Version: 2.0
+-[TTTOrdinalNumberFormatter init]
+-[TTTOrdinalNumberFormatter localizedOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter caOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter enOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter esOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter frOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter gaOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter itOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter jaOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter nlOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter ptOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter zhHansOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter svOrdinalIndicatorStringFromNumber:]
+-[TTTOrdinalNumberFormatter stringForObjectValue:]
+-[TTTOrdinalNumberFormatter getObjectValue:forString:errorDescription:]
+-[TTTOrdinalNumberFormatter copyWithZone:]
+-[TTTOrdinalNumberFormatter initWithCoder:]
+-[TTTOrdinalNumberFormatter encodeWithCoder:]
+-[TTTOrdinalNumberFormatter ordinalIndicator]
+-[TTTOrdinalNumberFormatter setOrdinalIndicator:]
+-[TTTOrdinalNumberFormatter grammaticalGender]
+-[TTTOrdinalNumberFormatter setGrammaticalGender:]
+-[TTTOrdinalNumberFormatter grammaticalNumber]
+-[TTTOrdinalNumberFormatter setGrammaticalNumber:]
+-[TTTOrdinalNumberFormatter .cxx_destruct]
+_OBJC_IVAR_$_TTTOrdinalNumberFormatter._ordinalIndicator
+_OBJC_IVAR_$_TTTOrdinalNumberFormatter._grammaticalGender
+_OBJC_IVAR_$_TTTOrdinalNumberFormatter._grammaticalNumber
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTOrdinalNumberFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTOrdinalNumberFormatter.h
+NSLocationInRange
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[TTTArrayFormatter init]
++[TTTArrayFormatter localizedStringFromArray:arrayStyle:]
+-[TTTArrayFormatter stringFromArray:]
+-[TTTArrayFormatter stringFromArray:rangesOfComponents:]
+-[TTTArrayFormatter arrayFromString:]
+-[TTTArrayFormatter stringForObjectValue:]
+-[TTTArrayFormatter getObjectValue:forString:errorDescription:]
+-[TTTArrayFormatter copyWithZone:]
+-[TTTArrayFormatter initWithCoder:]
+-[TTTArrayFormatter encodeWithCoder:]
+-[TTTArrayFormatter arrayStyle]
+-[TTTArrayFormatter setArrayStyle:]
+-[TTTArrayFormatter delimiter]
+-[TTTArrayFormatter setDelimiter:]
+-[TTTArrayFormatter separator]
+-[TTTArrayFormatter setSeparator:]
+-[TTTArrayFormatter conjunction]
+-[TTTArrayFormatter setConjunction:]
+-[TTTArrayFormatter abbreviatedConjunction]
+-[TTTArrayFormatter setAbbreviatedConjunction:]
+-[TTTArrayFormatter usesAbbreviatedConjunction]
+-[TTTArrayFormatter setUsesAbbreviatedConjunction:]
+-[TTTArrayFormatter usesSerialDelimiter]
+-[TTTArrayFormatter setUsesSerialDelimiter:]
+-[TTTArrayFormatter .cxx_destruct]
+_OBJC_IVAR_$_TTTArrayFormatter._arrayStyle
+_OBJC_IVAR_$_TTTArrayFormatter._delimiter
+_OBJC_IVAR_$_TTTArrayFormatter._separator
+_OBJC_IVAR_$_TTTArrayFormatter._conjunction
+_OBJC_IVAR_$_TTTArrayFormatter._abbreviatedConjunction
+_OBJC_IVAR_$_TTTArrayFormatter._usesAbbreviatedConjunction
+_OBJC_IVAR_$_TTTArrayFormatter._usesSerialDelimiter
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTArrayFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTArrayFormatter.h
+NSMakeRange
+-[TTTTimeIntervalFormatter init]
+-[TTTTimeIntervalFormatter stringForTimeInterval:]
+-[TTTTimeIntervalFormatter stringForTimeIntervalFromDate:toDate:]
+-[TTTTimeIntervalFormatter localizedStringForNumber:ofCalendarUnit:]
+-[TTTTimeIntervalFormatter localizedIdiomaticDeicticExpressionForComponents:]
+-[TTTTimeIntervalFormatter caRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter enRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter esRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter heRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter nlRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter plRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter csRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter jaRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter frRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter itRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter huRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter zhHansRelativeDateStringForComponents:]
+-[TTTTimeIntervalFormatter stringForObjectValue:]
+-[TTTTimeIntervalFormatter getObjectValue:forString:errorDescription:]
+-[TTTTimeIntervalFormatter copyWithZone:]
+-[TTTTimeIntervalFormatter initWithCoder:]
+-[TTTTimeIntervalFormatter encodeWithCoder:]
+-[TTTTimeIntervalFormatter locale]
+-[TTTTimeIntervalFormatter setLocale:]
+-[TTTTimeIntervalFormatter calendar]
+-[TTTTimeIntervalFormatter setCalendar:]
+-[TTTTimeIntervalFormatter pastDeicticExpression]
+-[TTTTimeIntervalFormatter setPastDeicticExpression:]
+-[TTTTimeIntervalFormatter presentDeicticExpression]
+-[TTTTimeIntervalFormatter setPresentDeicticExpression:]
+-[TTTTimeIntervalFormatter futureDeicticExpression]
+-[TTTTimeIntervalFormatter setFutureDeicticExpression:]
+-[TTTTimeIntervalFormatter deicticExpressionFormat]
+-[TTTTimeIntervalFormatter setDeicticExpressionFormat:]
+-[TTTTimeIntervalFormatter suffixExpressionFormat]
+-[TTTTimeIntervalFormatter setSuffixExpressionFormat:]
+-[TTTTimeIntervalFormatter approximateQualifierFormat]
+-[TTTTimeIntervalFormatter setApproximateQualifierFormat:]
+-[TTTTimeIntervalFormatter presentTimeIntervalMargin]
+-[TTTTimeIntervalFormatter setPresentTimeIntervalMargin:]
+-[TTTTimeIntervalFormatter usesAbbreviatedCalendarUnits]
+-[TTTTimeIntervalFormatter setUsesAbbreviatedCalendarUnits:]
+-[TTTTimeIntervalFormatter usesApproximateQualifier]
+-[TTTTimeIntervalFormatter setUsesApproximateQualifier:]
+-[TTTTimeIntervalFormatter usesIdiomaticDeicticExpressions]
+-[TTTTimeIntervalFormatter setUsesIdiomaticDeicticExpressions:]
+-[TTTTimeIntervalFormatter numberOfSignificantUnits]
+-[TTTTimeIntervalFormatter setNumberOfSignificantUnits:]
+-[TTTTimeIntervalFormatter leastSignificantUnit]
+-[TTTTimeIntervalFormatter setLeastSignificantUnit:]
+-[TTTTimeIntervalFormatter significantUnits]
+-[TTTTimeIntervalFormatter setSignificantUnits:]
+-[TTTTimeIntervalFormatter .cxx_destruct]
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._locale
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._calendar
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._pastDeicticExpression
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._presentDeicticExpression
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._futureDeicticExpression
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._deicticExpressionFormat
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._suffixExpressionFormat
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._approximateQualifierFormat
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._presentTimeIntervalMargin
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._usesAbbreviatedCalendarUnits
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._usesApproximateQualifier
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._usesIdiomaticDeicticExpressions
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._numberOfSignificantUnits
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._leastSignificantUnit
+_OBJC_IVAR_$_TTTTimeIntervalFormatter._significantUnits
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTTimeIntervalFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTTimeIntervalFormatter.h
+NSCalendarUnitCompareSignificance
+NSCalendarUnitFromString
+-[NSMutableString(TTTURLRequestFormatter) appendCommandLineArgument:]
+-[TTTURLRequestFormatter stringFromURLRequest:]
++[TTTURLRequestFormatter cURLCommandFromURLRequest:]
++[TTTURLRequestFormatter WgetCommandFromURLRequest:]
+-[TTTHTTPURLResponseFormatter stringFromHTTPURLResponse:]
+-[TTTHTTPURLResponseFormatter stringForObjectValue:]
+-[TTTHTTPURLResponseFormatter getObjectValue:forString:errorDescription:]
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTURLRequestFormatter.m
++[NSBundle(FormatterKit) formatterKitBundle]
+___44+[NSBundle(FormatterKit) formatterKitBundle]_block_invoke
+_formatterKitBundle.fomatterKitBundle
+_formatterKitBundle.onceToken
+___block_descriptor_tmp
+___block_literal_global
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/NSBundle+FormatterKit.m
+__44+[NSBundle(FormatterKit) formatterKitBundle]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/usr/include/dispatch/once.h
+-[TTTUnitOfInformationFormatter init]
+-[TTTUnitOfInformationFormatter scaleFactorForPrefix:]
+-[TTTUnitOfInformationFormatter prefixForInteger:]
+-[TTTUnitOfInformationFormatter stringFromNumberOfBits:]
+-[TTTUnitOfInformationFormatter stringFromNumber:ofUnit:]
+-[TTTUnitOfInformationFormatter stringFromNumber:ofUnit:withPrefix:]
+-[TTTUnitOfInformationFormatter stringForObjectValue:]
+-[TTTUnitOfInformationFormatter getObjectValue:forString:errorDescription:]
+-[TTTUnitOfInformationFormatter copyWithZone:]
+-[TTTUnitOfInformationFormatter initWithCoder:]
+-[TTTUnitOfInformationFormatter encodeWithCoder:]
+-[TTTUnitOfInformationFormatter displaysInTermsOfBytes]
+-[TTTUnitOfInformationFormatter setDisplaysInTermsOfBytes:]
+-[TTTUnitOfInformationFormatter usesIECBinaryPrefixesForCalculation]
+-[TTTUnitOfInformationFormatter setUsesIECBinaryPrefixesForCalculation:]
+-[TTTUnitOfInformationFormatter usesIECBinaryPrefixesForDisplay]
+-[TTTUnitOfInformationFormatter setUsesIECBinaryPrefixesForDisplay:]
+-[TTTUnitOfInformationFormatter numberFormatter]
+-[TTTUnitOfInformationFormatter setNumberFormatter:]
+-[TTTUnitOfInformationFormatter .cxx_destruct]
+_OBJC_IVAR_$_TTTUnitOfInformationFormatter._numberFormatter
+_OBJC_IVAR_$_TTTUnitOfInformationFormatter._displaysInTermsOfBytes
+_OBJC_IVAR_$_TTTUnitOfInformationFormatter._usesIECBinaryPrefixesForCalculation
+_OBJC_IVAR_$_TTTUnitOfInformationFormatter._usesIECBinaryPrefixesForDisplay
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTUnitOfInformationFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTUnitOfInformationFormatter.h
+TTTNumberOfBitsInUnit
+TTTBitUnitStringForSIPrefix
+TTTBitUnitStringForIECPrefix
+TTTByteUnitStringForSIPrefix
+TTTByteUnitStringForIECPrefix
+TTTScaleFactorForSIPrefix
+TTTScaleFactorForIECPrefix
+-[TTTLocationFormatter init]
+-[TTTLocationFormatter stringFromCoordinate:]
+_TTTLocalizedStringForAbbreviatedCardinalDirection
+-[TTTLocationFormatter stringFromLocation:]
+-[TTTLocationFormatter stringFromDistance:]
+-[TTTLocationFormatter stringFromBearing:]
+-[TTTLocationFormatter stringFromSpeed:]
+-[TTTLocationFormatter stringFromDistanceFromLocation:toLocation:]
+-[TTTLocationFormatter stringFromBearingFromLocation:toLocation:]
+-[TTTLocationFormatter stringFromDistanceAndBearingFromLocation:toLocation:]
+-[TTTLocationFormatter stringFromVelocityFromLocation:toLocation:atSpeed:]
+-[TTTLocationFormatter stringForObjectValue:]
+-[TTTLocationFormatter getObjectValue:forString:errorDescription:]
+-[TTTLocationFormatter copyWithZone:]
+-[TTTLocationFormatter initWithCoder:]
+-[TTTLocationFormatter encodeWithCoder:]
+-[TTTLocationFormatter numberFormatter]
+-[TTTLocationFormatter setNumberFormatter:]
+-[TTTLocationFormatter coordinateOrder]
+-[TTTLocationFormatter setCoordinateOrder:]
+-[TTTLocationFormatter coordinateStyle]
+-[TTTLocationFormatter setCoordinateStyle:]
+-[TTTLocationFormatter bearingStyle]
+-[TTTLocationFormatter setBearingStyle:]
+-[TTTLocationFormatter unitSystem]
+-[TTTLocationFormatter setUnitSystem:]
+-[TTTLocationFormatter .cxx_destruct]
+_OBJC_IVAR_$_TTTLocationFormatter._numberFormatter
+_OBJC_IVAR_$_TTTLocationFormatter._coordinateOrder
+_OBJC_IVAR_$_TTTLocationFormatter._coordinateStyle
+_OBJC_IVAR_$_TTTLocationFormatter._bearingStyle
+_OBJC_IVAR_$_TTTLocationFormatter._unitSystem
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTLocationFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTLocationFormatter.h
+CLLocationDegreesBearingBetweenCoordinates
+RAD2DEG
+DEG2RAD
+CLLocationSpeedToFeetPerSecond
+CLLocationSpeedToMilesPerHour
+CLLocationSpeedToKilometersPerHour
+TTTLocationCardinalDirectionFromBearing
+TTTLocalizedStringForCardinalDirection
+CLLocationDistanceToMiles
+CLLocationDistanceToYards
+CLLocationDistanceToFeet
+CLLocationDistanceToKilometers
+TTTLocalizedStringForAbbreviatedCardinalDirection
+TTTGetDegreesMinutesSecondsFromCoordinateDegrees
+TTTGetCardinalDirectionsFromCoordinate
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTAddressFormatter.m
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTNameFormatter.m
+-[TTTColorFormatter hexadecimalStringFromColor:]
+-[TTTColorFormatter colorFromHexadecimalString:]
+-[TTTColorFormatter RGBStringFromColor:]
+-[TTTColorFormatter colorFromRGBString:]
+-[TTTColorFormatter RGBAStringFromColor:]
+-[TTTColorFormatter colorFromRGBAString:]
+-[TTTColorFormatter CMYKStringFromColor:]
+-[TTTColorFormatter colorFromCMYKString:]
+-[TTTColorFormatter HSLStringFromColor:]
+-[TTTColorFormatter colorFromHSLString:]
+-[TTTColorFormatter UIColorDeclarationFromColor:]
+-[TTTColorFormatter stringForObjectValue:]
+-[TTTColorFormatter getObjectValue:forString:errorDescription:]
+/Users/mo/code/UA-ios-sdk-example/carthage/Checkouts/FormatterKit/FormatterKit/TTTColorFormatter.m
+__tg_round
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include/tgmath.h
+TTTGetHSLComponentsFromColor
+__tg_fmin
+__tg_fmax
+TTTGetRGBAComponentsFromColor
+TTTGetCMYKComponentsFromColor
+/Users/mo/Library/Developer/Xcode/DerivedData/FormatterKit-gzlckckzantfbrevdskjnqcqhfea/Build/Intermediates/FormatterKit.build/Release-watchos/FormatterKit-watchOS.build/DerivedSources/FormatterKit_vers.c

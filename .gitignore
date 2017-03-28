@@ -18,5 +18,5 @@ DerivedData
 *.xccheckout
 
 #CocoaPods
-Pods
-
+Carthage.pkg
+Carthage/Build
