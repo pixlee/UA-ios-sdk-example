@@ -20,3 +20,5 @@ DerivedData
 #CocoaPods
 Carthage.pkg
 Carthage/Build
+Example/Carthage.pkg
+Example/Carthage/Build
