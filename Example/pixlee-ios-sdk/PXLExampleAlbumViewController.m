@@ -6,10 +6,10 @@
 //
 
 #import "PXLExampleAlbumViewController.h"
-#import <pixlee_ios_sdk/PXLAlbum.h>
-#import <pixlee_ios_sdk/PXLAlbumFilterOptions.h>
-#import <pixlee_ios_sdk/PXLAlbumSortOptions.h>
-#import <pixlee_ios_sdk/PXLClient.h>
+#import "pixlee-ios-sdk/PXLAlbum.h"
+#import "pixlee-ios-sdk/PXLAlbumFilterOptions.h"
+#import "pixlee-ios-sdk/PXLAlbumSortOptions.h"
+#import "pixlee-ios-sdk/PXLClient.h"
 
 @interface PXLExampleAlbumViewController ()
 
@@ -19,7 +19,7 @@
 
 #warning Replace with your Pixlee album identifier.
 
-static NSString * const PXLAlbumIdentifier = @"1568132";
+static NSString * const PXLAlbumIdentifier = @"<YOUR ALBUM IDENTIFIER HERE>";
 
 - (void)viewDidLoad {
     [super viewDidLoad];

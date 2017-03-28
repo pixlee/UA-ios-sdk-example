@@ -7,14 +7,13 @@
 
 #import "PXLAppDelegate.h"
 
-#import <pixlee_ios_sdk/PXLClient.h>
-#import <pixlee_ios_sdk/PXLAlbum.h>
-
+#import "pixlee-ios-sdk/PXLClient.h"
+#import "pixlee-ios-sdk/PXLAlbum.h"
 
 @implementation PXLAppDelegate
 
 #warning Replace with your Pixlee API key.
-static NSString * const PXLClientAPIKey = @"zk4wWCOaHAo4Hi8HsE";
+static NSString * const PXLClientAPIKey = @"<YOUR PIXLEE CLIENT KEY HERE>";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[PXLClient sharedClient] setApiKey:PXLClientAPIKey];
